@@ -56,6 +56,7 @@ I believe all of these can be pip installed except for pywin32:
 
 - [Pycrypto](https://pypi.python.org/pypi/pycrypto)
 - [Requests](http://docs.python-requests.org/en/master/)
+- [Colorama](https://pypi.python.org/pypi/colorama)
 
 ### Windows Specific
 - [Py2exe](http://www.py2exe.org/)
