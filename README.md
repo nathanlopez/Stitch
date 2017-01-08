@@ -59,16 +59,26 @@ The "stitchgen" command gives the user the option to create [NSIS](http://nsis.s
 ## Requirements
 - [Python 2.7](https://www.python.org/downloads/)
 
-I believe all of these can be pip installed except for pywin32:
+For easy installation run the following command that corresponds to your OS:
+```
+# for Windows
+pip install -r win_requirements.txt
+
+# for Mac OSX
+pip install -r osx_requirements.txt
+
+# for Linux
+pip install -r lnx_requirements.txt
+```
 
 - [Pycrypto](https://pypi.python.org/pypi/pycrypto)
 - [Requests](http://docs.python-requests.org/en/master/)
 - [Colorama](https://pypi.python.org/pypi/colorama)
+- [PIL](https://pypi.python.org/pypi/PIL)
 
 ### Windows Specific
 - [Py2exe](http://www.py2exe.org/)
 - [pywin32](https://sourceforge.net/projects/pywin32/)
-- [PIL](https://pypi.python.org/pypi/PIL)
 
 ### Mac OSX Specific
 - [PyObjC](https://pythonhosted.org/pyobjc/)
