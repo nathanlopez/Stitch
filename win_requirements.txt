@@ -1,0 +1,11 @@
+colorama==0.3.7
+email==4.0.2
+logging==0.4.9.6
+PIL==1.1.7
+py2exe==0.6.9
+pycrypto==2.6.1
+pyHook==1.5.1
+pyreadline==2.1
+pywin32==220
+requests==2.11.1
+python-dateutil==1.5

@@ -1,0 +1,15 @@
+colorama==0.3.7
+email==4.0.2
+logging==0.4.9.6
+pexpect==4.2.1
+pycrypto==2.6.1
+PyInstaller==3.2
+python-dateutil==2.5.3
+python-xlib==0.18
+pyudev==0.15
+pyxattr==0.5.1
+PIL==1.1.7
+pyreadline==2.1
+python-dateutil==1.5
+readline==6.2.4.1
+requests==2.12.2
