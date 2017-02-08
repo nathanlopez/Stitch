@@ -97,6 +97,10 @@ or
 ## Motivation
 My motivation behind this was to advance my knowledge of python, hacking, and just to see what I could accomplish. Was somewhat discouraged and almost abandoned this project when I found the amazing work done by [n1nj4sec](https://github.com/n1nj4sec/pupy), but still decided to put this up since I had already come so far. 
 
+## Other open-source Python RATs for Reference
+* [vesche/basicRAT](https://github.com/vesche/basicRAT)
+* [n1nj4sec/pupy](https://github.com/n1nj4sec/pupy)
+
 ## Screenshots
 
 ![linux options](https://cloud.githubusercontent.com/assets/13227314/21706500/76fdb962-d37c-11e6-9284-093ad065aeca.PNG)
