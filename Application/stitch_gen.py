@@ -210,7 +210,7 @@ exe = EXE(pyz,
 
     with open('st_main.spec','w') as st:
         st.write(st_spec)
-    run_command('pyinstaller --onefile --distpath={} st_main.spec'.format(dist_dir))
+    st_log.info(run_command('pyinstaller --onefile --distpath={} st_main.spec'.format(dist_dir)))
 
     binary = os.path.join(dist_dir,name)
     binary_dir = os.path.join(dist_dir,'Binaries')
@@ -219,6 +219,8 @@ exe = EXE(pyz,
     if os.path.exists(binary):
         shutil.copy(binary,binary_dir)
         os.remove(binary)
+    else:
+        st_log.error('{} was not created from command "pyinstaller --onefile --distpath={} st_main.spec"'.format(binary,dist_dir))
 
 def run_exe_gen():
     if not os.path.exists(st_config):
