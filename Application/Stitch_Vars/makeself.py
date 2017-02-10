@@ -207,7 +207,8 @@ def gen_makeself(conf_dir,alias):
             gen_osx_plist(alias,mkself_tmp)
             gen_st_setup(alias,mkself_tmp)
             mkself_installer = 'bash "{}" "{}" "{}/{}_Installer" "Stitch" bash st_setup.sh'.format(mkself_exe, mkself_tmp, conf_mkself,alias)
-            run_command(mkself_installer)
+            st_log.info(mkself_installer)
+            st_log.info(run_command(mkself_installer))
             shutil.rmtree(mkself_tmp)
     else:
         binry_dir = os.path.join(conf_dir,'Binaries')
@@ -217,5 +218,6 @@ def gen_makeself(conf_dir,alias):
             gen_lnx_daemon(alias,mkself_tmp)
             gen_st_setup(alias,mkself_tmp)
             mkself_installer = 'bash "{}" "{}" "{}/{}_Installer" "Stitch" bash st_setup.sh'.format(mkself_exe, mkself_tmp, conf_mkself,alias)
-            run_command(mkself_installer)
+            st_log.info(mkself_installer)
+            st_log.info(run_command(mkself_installer))
             shutil.rmtree(mkself_tmp)
