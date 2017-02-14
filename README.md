@@ -56,6 +56,9 @@ All communication between the host and target is AES encrypted. Every Stitch pro
 ## Implemented Payload Installers
 The "stitchgen" command gives the user the option to create [NSIS](http://nsis.sourceforge.net/Main_Page) installers on Windows and [Makeself](http://stephanepeter.com/makeself/) installers on posix machines. For Windows, the installer packages the payload and an elevation exe ,which prevents the firewall prompt and adds persistence, and places the payload on the system. For Mac OSX and Linux, the installer places the payload and attempts to add persistence. To create NSIS installers you must [download](http://nsis.sourceforge.net/Download) and install NSIS. 
 
+## Wiki
+* [Crash Course of Stitch](https://github.com/nathanlopez/Stitch/wiki/Crash-Course)
+
 ## Requirements
 - [Python 2.7](https://www.python.org/downloads/)
 
