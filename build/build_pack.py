@@ -62,22 +62,25 @@ def install_other(path):
 
 def main():
     """ Main function for the installations """
-    with open("{}\\build\\text_files\\run.txt".format(os.getcwd()), "a+") as run:
-        if run.read().strip() == "false":  # Has it been run before?
-            print("Installing required packages for Windows..")
-            operating_system = check_os(platform.system())
-            if operating_system is True:
-                install_py2exe()
-                install_pil()
-                install_pyhook(os.getcwd() + "build" + "\\" + "whls")
-                install_other(os.getcwd())
-                run.seek(0)
-                run.truncate(0)
-                run.write("true")  # Write 'true' to the file so this won't be run again
+    if check_os(platform.system()) is True:  # If your OS is Windows
+        with open("{}\\build\\text_files\\run.txt".format(os.getcwd()), "a+") as run:
+            if run.read().strip() == "false":  # Has it been run before?
+                print("Installing required packages for Windows..")
+                operating_system = check_os(platform.system())
+                if operating_system is True:
+                    install_py2exe()
+                    install_pil()
+                    install_pyhook(os.getcwd() + "build" + "\\" + "whls")
+                    install_other(os.getcwd())
+                    run.seek(0)
+                    run.truncate(0)
+                    run.write("true")  # Write 'true' to the file so this won't be run again
+                else:
+                    pass  # OS is not Windows
             else:
-                pass  # OS is not Windows
-        else:
-            pass  # Has been run before
+                pass  # Has been run before
+    else:  # If your OS is not Windows
+        pass
 
 
 if __name__ == '__main__':
