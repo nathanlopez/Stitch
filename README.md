@@ -154,8 +154,11 @@ or
 ### :camera: &nbsp; Screenshots &nbsp; :camera:
 
 ![linux options](https://cloud.githubusercontent.com/assets/13227314/21706500/76fdb962-d37c-11e6-9284-093ad065aeca.PNG)
+<br><br>
 ![win_options](https://cloud.githubusercontent.com/assets/13227314/21706517/80d977b4-d37c-11e6-9588-5cd1bb3ecf37.PNG)
+<br><br>
 ![win_upload](https://cloud.githubusercontent.com/assets/13227314/21706518/83c8509e-d37c-11e6-9f6e-f86b3a696c1a.PNG)
+<br><br>
 ![osx_download](https://cloud.githubusercontent.com/assets/13227314/21706506/79f54e96-d37c-11e6-928b-68a8c57df919.PNG)
 
 ------------------------------------------------------------------------
