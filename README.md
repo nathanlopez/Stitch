@@ -18,7 +18,6 @@
 * [Motivation for Project](#Motivation)
 * [References](#References)
 * [License](#License)
-* [TODO](#TODO)
 
 <!-- vim-markdown-toc -->
 
