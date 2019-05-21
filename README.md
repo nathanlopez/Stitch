@@ -1,6 +1,6 @@
 # Stitch
 
-## DISCLAIMER
+## :Warning: &nbsp; DISCLAIMER &nbsp; :Warning:
 
 **Stitch is for education/research purposes only.**
 <br><br>
@@ -14,13 +14,13 @@ By using Stitch or any files included, you understand that you are **AGREEING TO
 <br><br>
 Stitch is *ONLY* intended to be used on your own pentesting labs, or with explicit consent from the owner of the property being tested.
 
-## About Stitch
+## :information_source: &nbsp; About Stitch &nbsp; :information_source:
 A Cross Platform Python Remote Administration Tool:
 
 This is a cross platform python framework which allows you to build custom payloads for Windows, Mac OSX and Linux as well. You are able to select whether the payload binds to a specific IP and port, listens for a connection on a port, option to send an email of system info when the system boots, and option to start keylogger on boot. Payloads created can only run on the OS that they were created on.
 
 ### Features
-#### Cross Platform Support
+#### :anchor: &nbsp; Cross Platform Support &nbsp; :anchor:
 - Command and file auto-completion
 - Antivirus detection 
 - Able to turn off/on display monitors
@@ -36,7 +36,7 @@ This is a cross platform python framework which allows you to build custom paylo
 - Attempt to dump the systems password hashes
 - Payloads' properties are "disguised" as other known programs
 
-#### Windows Specific
+#### :diamond_shape_with_a_dot_inside: &nbsp; Windows Specific &nbsp; :diamond_shape_with_a_dot_inside:
 - Display a user/password dialog box to obtain user password
 - Dump passwords saved via Chrome
 - Clear the System, Security, and Application logs
@@ -48,12 +48,12 @@ This is a cross platform python framework which allows you to build custom paylo
 - View information about drives connected 
 - View summary of registry values such as DEP
 
-#### Mac OSX Specific
+#### :apple: &nbsp; Mac OSX Specific &nbsp; :apple:
 - Display a user/password dialog box to obtain user password
 - Change the login text at the user's login screen
 - Webcam snapshots
 
-#### Mac OSX/Linux Specific
+#### :penguin: &nbsp; Mac OSX/Linux Specific &nbsp; :penguin:
 - SSH from the target machine into another host
 - Run sudo commands
 - Attempt to bruteforce the user's password using the passwords list found in Tools/
@@ -88,18 +88,18 @@ pip install -r lnx_requirements.txt
 - [Colorama](https://pypi.python.org/pypi/colorama)
 - [PIL](https://pypi.python.org/pypi/PIL)
 
-#### Windows Specific
+#### :diamond_shape_with_a_dot_inside: &nbsp; Windows Specific &nbsp; :diamond_shape_with_a_dot_inside:
 - [Py2exe](http://www.py2exe.org/)
 - [pywin32](https://sourceforge.net/projects/pywin32/)
 
-#### Mac OSX Specific
+#### :apple: &nbsp; Mac OSX Specific &nbsp; :diamond_shape_with_a_dot_inside:
 - [PyObjC](https://pythonhosted.org/pyobjc/)
 
-#### Mac OSX/Linux Specific
+#### :penguin: &nbsp; Mac OSX/Linux Specific &nbsp; :diamond_shape_with_a_dot_inside:
 - [PyInstaller](http://www.pyinstaller.org/)
 - [pexpect](https://pexpect.readthedocs.io/en/stable/)
 
-### To Run
+### :fire: &nbsp; To Run &nbsp; :fire:
 ```
 python main.py
 or
