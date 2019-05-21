@@ -1,6 +1,6 @@
 # Stitch
 
-## :Warning: &nbsp; DISCLAIMER &nbsp; :Warning:
+## :warning: &nbsp; DISCLAIMER &nbsp; :warning:
 
 **Stitch is for education/research purposes only.**
 <br><br>
