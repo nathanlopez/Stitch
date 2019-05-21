@@ -1,4 +1,8 @@
+------------------------------------------------------------------------
+
 # Stitch
+
+------------------------------------------------------------------------
 
 ## :warning: &nbsp; DISCLAIMER &nbsp; :warning:
 
@@ -14,10 +18,19 @@ By using Stitch or any files included, you understand that you are **AGREEING TO
 <br><br>
 Stitch is *ONLY* intended to be used on your own pentesting labs, or with explicit consent from the owner of the property being tested.
 
+------------------------------------------------------------------------
+
 ## :information_source: &nbsp; About Stitch &nbsp; :information_source:
 A Cross Platform Python Remote Administration Tool:
 
 This is a cross platform python framework which allows you to build custom payloads for Windows, Mac OSX and Linux as well. You are able to select whether the payload binds to a specific IP and port, listens for a connection on a port, option to send an email of system info when the system boots, and option to start keylogger on boot. Payloads created can only run on the OS that they were created on.
+
+------------------------------------------------------------------------
+
+### :ledger: &nbsp; Wiki &nbsp; :ledger:
+* [Crash Course of Stitch](https://github.com/nathanlopez/Stitch/wiki/Crash-Course)
+
+------------------------------------------------------------------------
 
 ### Features
 #### :anchor: &nbsp; Cross Platform Support &nbsp; :anchor:
@@ -48,6 +61,7 @@ This is a cross platform python framework which allows you to build custom paylo
 - View information about drives connected 
 - View summary of registry values such as DEP
 
+
 #### :apple: &nbsp; Mac OSX Specific &nbsp; :apple:
 - Display a user/password dialog box to obtain user password
 - Change the login text at the user's login screen
@@ -59,14 +73,17 @@ This is a cross platform python framework which allows you to build custom paylo
 - Attempt to bruteforce the user's password using the passwords list found in Tools/
 - Webcam snapshots? (untested on Linux)
 
+------------------------------------------------------------------------
+
 ### :sound: &nbsp; Implemented Transports &nbsp; :sound:
-All communication between the host and target is AES encrypted. Every Stitch program generates an AES key which is then put into all payloads. To access a payload the AES keys must match. To connect from a different system running Stitch you must add the key by using the showkey command from the original system and the addkey command on the new system. 
+All communication between the host and target is AES encrypted. Every Stitch program generates an AES key which is then put into all payloads. To access a payload the AES keys must match. To connect from a different system running Stitch you must add the key by using the showkey command from the original system and the addkey command on the new system.
+
+------------------------------------------------------------------------
 
 ### :steam_locomotive: &nbsp; Implemented Payload Installers &nbsp; :steam_locomotive:
 The "stitchgen" command gives the user the option to create [NSIS](http://nsis.sourceforge.net/Main_Page) installers on Windows and [Makeself](http://stephanepeter.com/makeself/) installers on posix machines. For Windows, the installer packages the payload and an elevation exe ,which prevents the firewall prompt and adds persistence, and places the payload on the system. For Mac OSX and Linux, the installer places the payload and attempts to add persistence. To create NSIS installers you must [download](http://nsis.sourceforge.net/Download) and install NSIS. 
 
-### :ledger: &nbsp; Wiki &nbsp; :ledger:
-* [Crash Course of Stitch](https://github.com/nathanlopez/Stitch/wiki/Crash-Course)
+------------------------------------------------------------------------
 
 ### :closed_lock_with_key: &nbsp; Requirements &nbsp; :closed_lock_with_key:
 - [Python 2.7](https://www.python.org/downloads/)
@@ -106,12 +123,18 @@ or
 ./main.py
 ```
 
-### :octocat: Motivation :octocat:
+------------------------------------------------------------------------
+
+### :octocat: &nbsp; Motivation &nbsp; :octocat:
 My motivation behind this was to advance my knowledge of python, hacking, and just to see what I could accomplish. Was somewhat discouraged and almost abandoned this project when I found the amazing work done by [n1nj4sec](https://github.com/n1nj4sec/pupy), but still decided to put this up since I had already come so far. 
+
+------------------------------------------------------------------------
 
 ### :books: &nbsp; Other open-source Python RATs for Reference &nbsp; :books:
 * [vesche/basicRAT](https://github.com/vesche/basicRAT)
 * [n1nj4sec/pupy](https://github.com/n1nj4sec/pupy)
+
+------------------------------------------------------------------------
 
 ### :camera: &nbsp; Screenshots &nbsp; :camera:
 
