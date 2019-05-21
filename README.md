@@ -59,16 +59,16 @@ This is a cross platform python framework which allows you to build custom paylo
 - Attempt to bruteforce the user's password using the passwords list found in Tools/
 - Webcam snapshots? (untested on Linux)
 
-### Implemented Transports
+### :sound: &nbsp; Implemented Transports &nbsp; :sound:
 All communication between the host and target is AES encrypted. Every Stitch program generates an AES key which is then put into all payloads. To access a payload the AES keys must match. To connect from a different system running Stitch you must add the key by using the showkey command from the original system and the addkey command on the new system. 
 
-### Implemented Payload Installers
+### :steam_locomotive: &nbsp; Implemented Payload Installers &nbsp; :steam_locomotive:
 The "stitchgen" command gives the user the option to create [NSIS](http://nsis.sourceforge.net/Main_Page) installers on Windows and [Makeself](http://stephanepeter.com/makeself/) installers on posix machines. For Windows, the installer packages the payload and an elevation exe ,which prevents the firewall prompt and adds persistence, and places the payload on the system. For Mac OSX and Linux, the installer places the payload and attempts to add persistence. To create NSIS installers you must [download](http://nsis.sourceforge.net/Download) and install NSIS. 
 
-### Wiki
+### :ledger: &nbsp; Wiki &nbsp; :ledger:
 * [Crash Course of Stitch](https://github.com/nathanlopez/Stitch/wiki/Crash-Course)
 
-### Requirements
+### :closed_lock_with_key: &nbsp; Requirements &nbsp; :closed_lock_with_key:
 - [Python 2.7](https://www.python.org/downloads/)
 
 For easy installation run the following command that corresponds to your OS:
@@ -106,20 +106,20 @@ or
 ./main.py
 ```
 
-### Motivation
+### :octocat: Motivation :octocat:
 My motivation behind this was to advance my knowledge of python, hacking, and just to see what I could accomplish. Was somewhat discouraged and almost abandoned this project when I found the amazing work done by [n1nj4sec](https://github.com/n1nj4sec/pupy), but still decided to put this up since I had already come so far. 
 
-### Other open-source Python RATs for Reference
+### :books: &nbsp; Other open-source Python RATs for Reference &nbsp; :books:
 * [vesche/basicRAT](https://github.com/vesche/basicRAT)
 * [n1nj4sec/pupy](https://github.com/n1nj4sec/pupy)
 
-### Screenshots
+### :camera: &nbsp; Screenshots &nbsp; :camera:
 
 ![linux options](https://cloud.githubusercontent.com/assets/13227314/21706500/76fdb962-d37c-11e6-9284-093ad065aeca.PNG)
 ![win_options](https://cloud.githubusercontent.com/assets/13227314/21706517/80d977b4-d37c-11e6-9588-5cd1bb3ecf37.PNG)
 ![win_upload](https://cloud.githubusercontent.com/assets/13227314/21706518/83c8509e-d37c-11e6-9f6e-f86b3a696c1a.PNG)
 ![osx_download](https://cloud.githubusercontent.com/assets/13227314/21706506/79f54e96-d37c-11e6-928b-68a8c57df919.PNG)
 
-### License
+### :page_facing_up: &nbsp; License &nbsp; :page_facing_up:
 
 See [LICENSE](/LICENSE)
