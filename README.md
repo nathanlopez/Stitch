@@ -1,3 +1,4 @@
+###### Introduction
 ------------------------------------------------------------------------
 
 # Stitch
@@ -8,9 +9,10 @@
 
 * [Introduction](#Introduction)
 * [Disclaimer](#Disclaimer)
-* [About Stitch](#About Stitch)
+* [About Stitch](#About_Stitch)
 * [Wiki Page](#Wiki)
 * [Features](#Features)
+* [Command Tip](#Command_Tip)
 * [Requirements](#Requirements)
 * [Screenshots](#Screenshots)
 * [Motivation for Project](#Motivation)
@@ -22,6 +24,7 @@
 
 ------------------------------------------------------------------------
 
+###### Disclaimer
 ## :warning: &nbsp; DISCLAIMER &nbsp; :warning:
 
 **Stitch is for education/research purposes only.**
@@ -38,6 +41,7 @@ Stitch is *ONLY* intended to be used on your own pentesting labs, or with explic
 
 ------------------------------------------------------------------------
 
+###### About_Stitch
 ## :information_source: &nbsp; About Stitch &nbsp; :information_source:
 A Cross Platform Python Remote Administration Tool:
 
@@ -45,11 +49,13 @@ This is a cross platform python framework which allows you to build custom paylo
 
 ------------------------------------------------------------------------
 
-## :ledger: &nbsp; Wiki &nbsp; :ledger:
+###### Wiki
+## :ledger: &nbsp; Wiki Page &nbsp; :ledger:
 * [Crash Course of Stitch](https://github.com/nathanlopez/Stitch/wiki/Crash-Course)
 
 ------------------------------------------------------------------------
 
+###### Features
 ## Features
 #### :anchor: &nbsp; Cross Platform Support &nbsp; :anchor:
 - Command and file auto-completion
@@ -93,6 +99,7 @@ This is a cross platform python framework which allows you to build custom paylo
 
 ------------------------------------------------------------------------
 
+###### Command_Tip
 ## Extra Commands List
 
 ### :sound: &nbsp; Implemented Transports &nbsp; :sound:
@@ -103,6 +110,7 @@ The "stitchgen" command gives the user the option to create [NSIS](http://nsis.s
 
 ------------------------------------------------------------------------
 
+###### Requirements
 ### :closed_lock_with_key: &nbsp; Requirements &nbsp; :closed_lock_with_key:
 - [Python 2.7](https://www.python.org/downloads/)
 
@@ -143,6 +151,7 @@ or
 
 ------------------------------------------------------------------------
 
+###### Screenshots
 ### :camera: &nbsp; Screenshots &nbsp; :camera:
 
 ![linux options](https://cloud.githubusercontent.com/assets/13227314/21706500/76fdb962-d37c-11e6-9284-093ad065aeca.PNG)
@@ -152,17 +161,20 @@ or
 
 ------------------------------------------------------------------------
 
+###### Motivation
 ### :octocat: &nbsp; Motivation &nbsp; :octocat:
 My motivation behind this was to advance my knowledge of python, hacking, and just to see what I could accomplish. Was somewhat discouraged and almost abandoned this project when I found the amazing work done by [n1nj4sec](https://github.com/n1nj4sec/pupy), but still decided to put this up since I had already come so far. 
 
 ------------------------------------------------------------------------
 
+###### References
 ### :books: &nbsp; Other open-source Python RATs for Reference &nbsp; :books:
 * [vesche/basicRAT](https://github.com/vesche/basicRAT)
 * [n1nj4sec/pupy](https://github.com/n1nj4sec/pupy)
 
 ------------------------------------------------------------------------
 
+###### License
 ### :page_facing_up: &nbsp; License &nbsp; :page_facing_up:
 
 See [LICENSE](/LICENSE)
