@@ -12,7 +12,7 @@ from .exception import ScreenshotError
 def mss(*args, **kwargs):
     ''' Factory returning a proper MSS class instance.
 
-        It detects the plateform we are running on
+        It detects the platform we are running on
         and choose the most adapted mss_class to take
         screenshots.
 
