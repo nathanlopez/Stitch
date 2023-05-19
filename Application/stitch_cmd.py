@@ -67,7 +67,7 @@ class stitch_server(cmd.Cmd):
             print_border(len(n),'-')
             print('   User: {}\n   Hostname: {}\n   Listening Port: {}\n'
             '   Operating System: {}\n'.format( n_user, n_hostname, n_port, n_os))
-        print ""
+        print ("")
 
     def remove_hsection(self,section):
         if section in self.Config.sections():
